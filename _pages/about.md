@@ -9,4 +9,4 @@ Currently, I serve as a Volunteer Shopify Developer with Radical where I have le
 
 Colleagues describe me as a progressive, driven, down-to-earth, technical and analytical expert who can be relied on to offer superior solutions that deliver high-quality results.
 
-I am pursuing new opportunities and can be reached through my (LinkedIn)["https://www.linkedin.com/in/alex-tran-sde/"].
+I am pursuing new opportunities and can be reached through my [LinkedIn]("https://www.linkedin.com/in/alex-tran-sde/").
