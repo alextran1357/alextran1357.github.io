@@ -16,12 +16,10 @@
 title: Portfolio
 email: alextran1357@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: 
+  This is a website all about Alex Tran
+repository: "alextran1357/alextran1357.github.io"
 github_username: alextran1357
-minimal_mistakes_skin: sunrise
+minimal_mistakes_skin: "sunrise"
 search: true
 
 # Build settings
@@ -60,27 +58,22 @@ plugins:
 author:
   name   : "Alex Tran"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Full Stack Software Developer | Shopify Developer | Data Engineer | Python | Golang | JavaScript"
+  bio    : "Software Developer"
+  location: "California, USA"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/alextran1357"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://instagram.com/alex-tran-sde/"
 
 footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/alextran1357"
-    - label: "Instagram"
+    - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/alex-tran-sde/"
 
