@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Welcome"
+title: "Welcome to My Portfolio"
 permalink: /
 ---
 
