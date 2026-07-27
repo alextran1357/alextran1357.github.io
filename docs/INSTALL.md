@@ -88,8 +88,6 @@ Now, feel free to customize the theme however you like (don't forget to change t
 
 For v1.x, Docker serves from a container-local destination (`/tmp/_site`) to avoid host bind-mount write deadlocks during notebook and asset generation.
 
-> Beta: You can also try the slimmed docker image with `docker compose -f docker-compose-slim.yml up`, but it may lag behind the full image on some host architectures.
-
 ### Build your own docker image
 
 > Note: this approach is only necessary if you would like to build an older or very custom version of al-folio.
