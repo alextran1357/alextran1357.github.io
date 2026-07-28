@@ -12,6 +12,8 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Alex Tran is a data analyst and analytics engineer with a professional software engineering background.
 footer_text: >
   © 2026 Alex Tran. Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  <style>.toggle-container { display: none !important; }</style>
+  <script>localStorage.setItem("theme", "dark"); document.documentElement.setAttribute("data-theme", "dark"); document.documentElement.setAttribute("data-theme-setting", "dark");</script>
 keywords: Alex Tran, data analyst, analytics engineer, data engineer, data scientist, software engineer, Python, SQL, Tableau, Power BI
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 📊 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -83,9 +85,9 @@ al_folio:
 
 navbar_fixed: true
 footer_fixed: true
-search_enabled: true
-socials_in_search: true
-posts_in_search: true
+search_enabled: false
+socials_in_search: false
+posts_in_search: false
 bib_search: false
 
 # Dimensions
@@ -120,8 +122,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Writing # blog_name will be displayed in your blog page
-blog_description: Notes on data analysis, analytics engineering, and software development
+blog_name: Insights # blog_name will be displayed in your blog page
+blog_description: Practical lessons from analytics, machine learning, and software projects
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -432,7 +434,7 @@ enable_cookie_consent: false # enables GDPR-compliant cookie consent dialog (htt
 enable_masonry: true # enables automatic project cards arrangement
 enable_math: true # enables math typesetting (uses MathJax)
 enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts
-enable_darkmode: true # enables switching between light/dark modes
+enable_darkmode: false # the site is fixed to dark mode by the setting below
 enable_navbar_social: false # enables displaying social links in the navbar on the about page
 enable_project_categories: false # enables categorization of projects into multiple categories
 enable_medium_zoom: true # enables image zoom feature (as on medium.com)
@@ -648,4 +650,4 @@ third_party_libraries:
       js_map: "https://cdn.jsdelivr.net/npm/vega-lite@{{version}}/build/vega-lite.min.js.map"
     version: "5.16.3"
 
-# The site uses _data/cv.yml as its single résumé source.
+# The site uses _data/cv.yml as its single resume source.

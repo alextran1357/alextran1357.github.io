@@ -1,6 +1,6 @@
 ---
 layout: page
-title: contact
+title: Contact
 permalink: /contact/
 description: Contact Alex Tran about data analytics, analytics engineering, data engineering, or software engineering opportunities.
 nav: true
@@ -13,4 +13,4 @@ The best way to reach me is by email at [alex98tran@gmail.com](mailto:alex98tran
 
 I am based in Westminster, California.
 
-[Download my data analyst résumé]({{ '/assets/pdf/Alex_Tran_Data_Analyst.pdf' | relative_url }})
+[Download my data analyst resume]({{ '/assets/pdf/Alex_Tran_Data_Analyst.pdf' | relative_url }})

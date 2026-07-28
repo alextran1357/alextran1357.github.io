@@ -3,6 +3,7 @@ layout: page
 title: Steam Game Pricing Intelligence
 description: An API-driven pipeline and Streamlit dashboard for analyzing first-sale timing and discount depth across 8,500+ games.
 img: assets/img/projects/steam-pricing.png
+github: https://github.com/alextran1357/game-data-tracker
 importance: 2
 category: featured
 ---

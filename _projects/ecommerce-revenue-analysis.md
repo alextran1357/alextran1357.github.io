@@ -3,6 +3,7 @@ layout: page
 title: E-commerce Revenue Analytics
 description: Revenue modeling, product-mix analysis, Power BI reporting, and Prophet forecasting across 1.9 million order items.
 img: assets/img/projects/ecommerce-analytics.png
+github: https://github.com/alextran1357/ecommerce-revenue-analysis
 importance: 1
 category: featured
 ---

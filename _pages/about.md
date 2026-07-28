@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 description: Alex Tran is a data analyst and analytics engineer with professional software engineering experience.
 subtitle: Data Analyst & Analytics Engineer · Westminster, California
@@ -9,9 +9,6 @@ profile:
   align: right
   image: alex-tran-headshot.jpg
   image_circular: true # crops the image to make it circular
-  more_info: >
-    <p>Westminster, California</p>
-    <p>Open to remote, hybrid, and on-site roles</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -51,4 +48,4 @@ Before moving into analytics, I built backend services, APIs, internal tools, an
 
 I am open to data analyst, analytics engineering, data engineering, applied data science, and software engineering roles in remote, hybrid, or on-site settings.
 
-[View all projects]({{ '/projects/' | relative_url }}) · [Download my résumé]({{ '/assets/pdf/Alex_Tran_Data_Analyst.pdf' | relative_url }}) · [Contact me]({{ '/contact/' | relative_url }})
+[View all projects]({{ '/projects/' | relative_url }}) · [Download my resume]({{ '/assets/pdf/Alex_Tran_Data_Analyst.pdf' | relative_url }}) · [Contact me]({{ '/contact/' | relative_url }})

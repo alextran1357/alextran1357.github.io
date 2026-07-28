@@ -1,0 +1,69 @@
+- title: "Model Selection Is More Than Choosing the Best Score"
+  date: "July 13, 2026"
+  summary: >-
+    What I learned while comparing regression and boosting models for site-speed prediction—including data leakage, target transformations, mobile-versus-desktop behavior, and why realistic evaluation matters more than an impressive metric.
+  url: "https://www.linkedin.com/feed/update/urn:li:activity:7482560196779589633/"
+  body: |-
+    I spent a lot more time on model selection for my site speed project than I originally expected. At first, I thought it would be pretty simple: try a few regression models, compare the scores, and pick the best one. But I realized the harder part was figuring out whether the results actually made sense.
+
+    I started with linear regression, Ridge, Lasso, and Elastic Net as baselines. Looking back, I probably could have made that comparison more fair with better scaling and preprocessing. After that, I moved into boosting models. Gradient Boosting performed better, and XGBoost gave me the strongest results so far.
+
+    The biggest lesson was that a better score does not always mean a better model. At one point, I accidentally left in a feature that was too directly tied to LCP. The model looked better, but it was getting information it should not have had. Once I removed that leakage, the metrics, as expected, got worse.
+
+    I also tested different ways to handle extreme LCP values. Clipping outliers made the model worse, but log-transforming LCP helped reduce the influence of extremely slow pages without removing them completely.
+    Another thing I didn't expect was how different mobile and desktop results would be. I originally did not want to split them because I was worried about losing data, but desktop LCP ended up being much more stable while mobile LCP had a lot more variance.
+
+    For evaluation, I focused mostly on MAE because I wanted the error to be easy to understand in seconds, and I did not want a few extreme LCP values to completely control the metric. Right now, the XGBoost model is around 1.35 seconds MAE with an R² of 0.86, but I’m still improving the dataset and model.
+
+    This part of the project taught me that model selection is not just about using a more complex model. It is about checking for leakage, testing assumptions, choosing the right transformations, and making sure the evaluation is realistic.
+
+- title: "Turning PageSpeed Data Into Decision Support"
+  date: "July 6, 2026"
+  summary: >-
+    A look at my PageSpeed Insights pipeline, XGBoost model, and Streamlit dashboard—and why its predictions should support scenario exploration rather than promise exact performance gains.
+  url: "https://www.linkedin.com/feed/update/urn:li:activity:7480008866529763329/"
+  body: |-
+    I’ve been working on a site speed project that uses PageSpeed Insights data to estimate how different performance improvements could affect Largest Contentful Paint.
+
+    The idea came from a simple problem: PageSpeed Insights and Lighthouse are useful, but for many website owners, the results can still be hard to turn into a clear decision. Seeing a list of issues is helpful, but it does not always answer the question: “If I improve this area, how much could it actually affect my site’s loading performance?”
+
+    For this project, I built a workflow that collects PageSpeed Insights data, processes the results in Databricks, trains an XGBoost model, and connects the model to a Streamlit dashboard.
+
+    Right now, the dashboard lets a user enter a URL, choose mobile or desktop, pull current PageSpeed Insights results, and adjust selected diagnostic metrics with sliders. The output is a model-based estimate of how LCP could change, along with the estimated percent improvement.
+
+    The current model is trained on about 16,000 usable lab-data rows and has reached a test MAE of about 1.35 seconds with an R² of 0.86.
+    One thing I’ve learned from this project is that site speed modeling is not as simple as “reduce one metric and performance improves.” For example, unused JavaScript may be high, but actually reducing it on a real website is not as easy as moving a slider. Because of that, I’m treating the dashboard as a way to explore possible performance scenarios rather than a tool that guarantees exact results.
+
+    Another direction I want to build toward is category-based benchmarking. Instead of comparing every website against one general dataset, I want users to compare their site against similar websites, such as e-commerce, local services, news, or education. My thinking is that websites in the same category often share similar performance patterns, so this could help website owners better understand where they stand.
+
+    For example, a small e-commerce site should probably be compared against other e-commerce sites instead of every website in the dataset.
+    I’m still thinking through the best way to handle this because a benchmark does not prove what is or is not fixable. But it can help show whether a metric is unusually high compared with similar websites.
+
+    Next, I’m expanding the dataset with more e-commerce and small business websites since those are the types of sites I want this project to support most. I’m also looking more closely at mobile LCP because it has been much more variable than desktop.
+
+    Still a work in progress, but it has been a really useful project for practicing API data collection, feature engineering, machine learning, model evaluation, and dashboard development.
+
+- title: "When Strong Revenue Growth Hides Concentration Risk"
+  date: "March 18, 2026"
+  summary: >-
+    How analyzing 1.9 million e-commerce records revealed that approximately 76% of revenue came from one product category and roughly 35% arrived in Q4—turning attractive growth into a more useful business-risk discussion.
+  url: "https://www.linkedin.com/feed/update/urn:li:activity:7440079602938683392/"
+  body: |-
+    I recently worked on an e-commerce dataset with about 1.9M transaction records to understand what was actually driving revenue.
+
+    One thing that surprised me:
+    * ~76% of revenue came from a single product category
+    * Around 35% of revenue happened in Q4
+    * Revenue grew pretty fast over a few years (~$7M → $37M)
+
+    At first, it looks like strong growth, but it also raises some questions.
+
+    If most of your revenue comes from one product, that's a pretty big risk. Same with relying heavily on holiday demand.
+
+    To get there, I:
+    * Cleaned and structured the raw data (it originally had nested JSON fields)
+    * Built a basic relational model (customers, orders, order_items, date)
+    * Looked at revenue trends, product mix, and seasonality
+
+    The chart made the product concentration really obvious.
+    This project made me think more about how "good-looking" metrics can hide underlying issues.

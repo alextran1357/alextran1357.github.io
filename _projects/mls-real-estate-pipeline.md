@@ -3,6 +3,7 @@ layout: page
 title: California Real Estate Data Pipeline
 description: A repeatable cleaning and feature-engineering workflow for monthly residential MLS listing and sales data.
 img: assets/img/projects/mls-pipeline.png
+github: https://github.com/alextran1357/idx-intern
 importance: 3
 category: featured
 ---

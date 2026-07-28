@@ -18,7 +18,7 @@ cv:
         position: Data Analyst Intern, MLS Analytics Program
         location: Remote
         start_date: 2026-03
-        end_date: present
+        end_date: 2026-06
         highlights:
           - Prepared approximately one million residential listing and sales records for market analysis using Python, Pandas, Jupyter, and Git.
           - Validated duplicates, missing values, invalid records, and extreme outliers; joined monthly mortgage rates and engineered market features.
@@ -57,6 +57,7 @@ cv:
         location: Boulder, Colorado
         area: Data Science
         studyType: Master of Science
+        start_date: 2025-02
         end_date: 2027-05
         highlights:
           - Expected May 2027
@@ -65,6 +66,7 @@ cv:
         location: Long Beach, California
         area: Computer Science
         studyType: Bachelor of Science
+        start_date: 2016
         end_date: 2020
 
     Selected Projects:

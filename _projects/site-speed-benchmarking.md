@@ -3,6 +3,7 @@ layout: page
 title: Website Performance Benchmarking
 description: A business-facing dashboard that compares Lighthouse results with peer sites and prioritizes likely performance bottlenecks.
 img: assets/img/projects/site-speed.png
+github: https://github.com/alextran1357/site_speed_recommendation
 importance: 4
 category: featured
 ---
