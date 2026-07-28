@@ -51,7 +51,7 @@ Architectural facts that span repos:
 bundle install                                # ruby gems
 bundle exec jekyll serve                      # dev server → http://localhost:4000/al-folio/  (NOTE baseurl)
 bundle exec jekyll build --baseurl /al-folio  # production-style build to _site/
-bash test/integration_distill.sh             # run ONE integration test (any of the five)
+bash test/integration_plugin_toggles.sh       # run a focused integration test
 npm run test:visual:update                    # refresh playwright snapshots after intentional UI change
 bundle exec al-folio upgrade apply --safe     # deterministic codemods (font-weight-* → font-*, remote→local URLs)
 bundle exec al-folio upgrade overrides diff <path>    # then `overrides accept <path>` to acknowledge an override

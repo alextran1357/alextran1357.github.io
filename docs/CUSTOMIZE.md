@@ -384,7 +384,7 @@ This will add a download button on your CV page that links to the PDF. (The exac
 
 **To disable automatic PDF generation:**
 
-Delete or comment out the [`.github/workflows/render-cv.yml`](../.github/workflows/render-cv.yml) workflow file.
+Delete or disable the optional `.github/workflows/render-cv.yml` workflow file.
 
 ## Modifying the user and repository information
 

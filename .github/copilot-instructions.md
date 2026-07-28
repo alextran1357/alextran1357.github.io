@@ -56,9 +56,7 @@ npm ci
 npm run lint:prettier
 npm run lint:style-contract
 bundle exec jekyll build --baseurl /al-folio
-bash test/integration_comments.sh
 bash test/integration_plugin_toggles.sh
-bash test/integration_distill.sh
 bash test/integration_bootstrap_compat.sh
 bash test/integration_upgrade_cli.sh
 npx playwright install chromium webkit

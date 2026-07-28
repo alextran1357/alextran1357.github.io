@@ -2,7 +2,7 @@
 layout: page
 title: Contact
 permalink: /contact/
-description: Contact Alex Tran about data analyst, analytics engineering, data engineering, applied data science, or data-focused software engineering opportunities.
+# description: Contact Alex Tran about data analyst, analytics engineering, data engineering, applied data science, or data-focused software engineering opportunities.
 nav: true
 nav_order: 4
 ---

@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-description: Alex Tran is a data analyst and analytics engineer with professional software engineering experience.
+# description: Alex Tran is a data analyst and analytics engineer with professional software engineering experience.
 subtitle: Data Analyst & Analytics Engineer · Westminster, California
 
 profile:

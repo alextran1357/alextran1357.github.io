@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Selected analytics, data engineering, and applied data science projects by Alex Tran.
+# description: Selected analytics, data engineering, and applied data science projects by Alex Tran.
 nav: true
 nav_order: 1
 ---
