@@ -1,9 +1,10 @@
 ---
 layout: page
 title: Steam Game Pricing Intelligence
-description: An API-driven pipeline and Streamlit dashboard for analyzing first-sale timing and discount depth across 8,500+ games.
+description: An API-driven pipeline and Streamlit dashboard for analyzing first-sale timing and discount depth across more than 8,000 games.
 img: assets/img/projects/steam-pricing.png
 github: https://github.com/alextran1357/game-data-tracker
+live: https://alextran1357-game-data-tracker-srcdashboard-u70h5x.streamlit.app/
 importance: 2
 ---
 
@@ -28,7 +29,7 @@ Because the source API records events rather than daily prices, I modeled the da
 
 ## Results
 
-- Built a dataset covering more than 8,500 games and 460,000 historical price events.
+- Built a dataset covering more than 8,000 games and 460,000 historical price events.
 - Created a repeatable pipeline with rate-limit handling and cached recovery.
 - Produced a lightweight dashboard dataset suitable for public deployment.
 - Translated statistical findings into an interactive decision-support tool.

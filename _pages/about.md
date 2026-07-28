@@ -13,11 +13,9 @@ profile:
 social: true
 ---
 
-I am a data analyst and analytics engineer with more than three years of professional software engineering experience. I turn large, messy datasets into reliable pipelines, clear analysis, and practical business decisions.
+I am a data analyst and analytics engineer with more than three years of software engineering experience. I turn large, messy datasets into reliable pipelines, decision-ready analysis, dashboards, and forecasting workflows.
 
-I currently work in the MLS Analytics Program at IDX Exchange, preparing approximately one million residential listing and sales records for market analysis with Python, Pandas, Jupyter, and Tableau. I am also pursuing an M.S. in Data Science at the University of Colorado Boulder, with an expected graduation date of May 2027.
-
-Before moving into analytics, I built backend services, APIs, internal tools, and full-stack applications using Go, Python, JavaScript, SQL, Vue, React, MySQL, and MongoDB. That engineering background helps me build analyses that are reproducible, maintainable, and ready for real operational use.
+During the MLS Analytics Program at IDX Exchange, I prepared approximately one million residential listing and sales records for market analysis with Python, Pandas, Jupyter, and Tableau. I am also pursuing an M.S. in Data Science at the University of Colorado Boulder, with an expected graduation date of May 2027. My experience building production services, APIs, and internal tools helps me create analytics work that is reproducible, maintainable, and ready for operational use.
 
 ## Selected work
 
@@ -27,14 +25,14 @@ Before moving into analytics, I built backend services, APIs, internal tools, an
 
 ## Core strengths
 
-**Analytics:** SQL, Python, Pandas, Excel, Power Query, DAX, Tableau, Power BI, statistics, and forecasting
+**Analytics and BI:** SQL, Python, Pandas, Excel, Power Query, DAX, Tableau, Power BI, statistics, and forecasting
 
-**Data engineering:** ETL, APIs, Airflow, relational modeling, Parquet, data quality, MySQL, MongoDB, and SQLite
+**Data systems:** ETL, APIs, Airflow, relational modeling, Parquet, data quality, MySQL, and MongoDB
 
-**Software engineering:** Go, JavaScript, React, Vue.js, Remix, GraphQL, Docker, Git, and production workflow automation
+**Engineering foundation:** Go, JavaScript, React, Vue.js, GraphQL, Docker, and Git
 
 ## Let's connect
 
-I am open to data analyst, analytics engineering, data engineering, applied data science, and software engineering roles in remote, hybrid, or on-site settings.
+I am primarily seeking data analyst and analytics engineering roles. I am also open to data engineering, applied data science, and data-focused software engineering positions where my engineering background is valuable.
 
 [View all projects]({{ '/projects/' | relative_url }}) · [Download my resume]({{ '/assets/pdf/Alex_Tran_Data_Analyst.pdf' | relative_url }}) · [Contact me]({{ '/contact/' | relative_url }})

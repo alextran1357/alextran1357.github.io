@@ -17,8 +17,8 @@ cv:
       - company: IDX Exchange
         position: Data Analyst Intern, MLS Analytics Program
         location: Remote
-        start_date: 2026-03
-        end_date: 2026-06
+        start_date: Mar 2026
+        end_date: Jun 2026
         highlights:
           - Prepared approximately one million residential listing and sales records for market analysis using Python, Pandas, Jupyter, and Git.
           - Validated duplicates, missing values, invalid records, and extreme outliers; joined monthly mortgage rates and engineered market features.
@@ -78,7 +78,7 @@ cv:
         url: https://github.com/alextran1357/ecommerce-revenue-analysis
 
       - name: Steam Game Pricing Pipeline and Dashboard
-        summary: Collected and modeled more than 460,000 price events for over 8,500 games and published an interactive Streamlit benchmarking dashboard.
+        summary: Collected and modeled more than 460,000 price events for more than 8,000 games and published an interactive Streamlit benchmarking dashboard.
         highlights:
           - Implemented API batching, retries, caching, data-quality checks, feature engineering, and statistical analysis.
         url: https://github.com/alextran1357/game-data-tracker

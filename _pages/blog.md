@@ -4,7 +4,7 @@ permalink: /blog/
 title: Insights
 nav: true
 nav_order: 3
-description: Insights from Alex Tran about data analysis, machine learning, analytics engineering, and software development.
+description: Insights from Alex Tran about data analysis, machine learning, and analytics engineering.
 ---
 
 Selected LinkedIn posts where I explain the decisions, tradeoffs, and lessons behind my analytics and machine-learning projects.
