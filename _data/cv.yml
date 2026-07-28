@@ -1,189 +1,98 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  name: Alex Tran
+  label: Data Analyst & Analytics Engineer
+  email: alex98tran@gmail.com
+  location: Westminster, California
+  image: alex-tran-headshot.jpg
+  summary: Data analyst and analytics engineer with more than three years of professional software engineering experience, combining business analysis, data pipelines, dashboards, forecasting, APIs, and production systems.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: alextran1357
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: alex-tran-sde
 
   sections:
-    Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
-
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: IDX Exchange
+        position: Data Analyst Intern, MLS Analytics Program
+        location: Remote
+        start_date: 2026-03
+        end_date: present
         highlights:
-          - Relativity
-          - Description 2.
+          - Prepared approximately one million residential listing and sales records for market analysis using Python, Pandas, Jupyter, and Git.
+          - Validated duplicates, missing values, invalid records, and extreme outliers; joined monthly mortgage rates and engineered market features.
+          - Built two Tableau dashboards for pricing, sales, days on market, agent and office performance, geography, and property-level analysis.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Outlier and Alignerr
+        position: AI Code Evaluator
+        location: Contract
+        start_date: 2024
+        end_date: 2025
         highlights:
-          - Description 1.
-          - Description 2.
+          - Evaluated and corrected model-generated solutions in Python, SQL, Go, and JavaScript.
+          - Performed secondary quality reviews and wrote structured feedback and adversarial prompts to improve training data quality.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: Radical
+        position: Software Engineer, Client Projects
+        location: Remote
+        start_date: 2023-10
+        end_date: 2025-01
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Built three custom Shopify applications for three client websites using React, Remix, GraphQL, Prisma, and backend services.
+          - Implemented billing, data persistence, deployment workflows, and integrations tailored to client operations.
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - company: Ezoic
+        position: Software Engineer, Site Speed Team
+        location: California
+        start_date: 2021-07
+        end_date: 2023-07
+        highlights:
+          - Developed Go services, Vue.js internal tools, REST endpoints, and scheduled workflows backed by MySQL and MongoDB.
+          - Automated contractor work queues multiple times per day, reducing unsuccessful assignments, manual rework, and staffing needs.
+          - Improved query and workflow reliability for systems supporting website performance operations.
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+    Education:
+      - institution: University of Colorado Boulder
+        location: Boulder, Colorado
+        area: Data Science
+        studyType: Master of Science
+        end_date: 2027-05
+        highlights:
+          - Expected May 2027
 
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+      - institution: California State University, Long Beach
+        location: Long Beach, California
+        area: Computer Science
+        studyType: Bachelor of Science
+        end_date: 2020
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+    Selected Projects:
+      - name: E-commerce Revenue Analysis and Forecasting
+        summary: Analyzed 1.9 million order items and built a Power BI model and Prophet forecast to identify growth, seasonality, pricing, and product concentration risks.
+        highlights:
+          - Found that approximately 76% of revenue came from gummies and roughly 35% of annual revenue occurred in Q4.
+          - Achieved approximately 15–18% MAPE in time-series cross-validation.
+        url: https://github.com/alextran1357/ecommerce-revenue-analysis
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+      - name: Steam Game Pricing Pipeline and Dashboard
+        summary: Collected and modeled more than 460,000 price events for over 8,500 games and published an interactive Streamlit benchmarking dashboard.
+        highlights:
+          - Implemented API batching, retries, caching, data-quality checks, feature engineering, and statistical analysis.
+        url: https://github.com/alextran1357/game-data-tracker
+
+      - name: California Residential Real Estate Pipeline
+        summary: Built a notebook-driven pipeline for monthly MLS listing and sales data, mortgage-rate enrichment, cleaning, feature engineering, and outlier handling.
+        highlights:
+          - Produced analysis-ready outputs from hundreds of thousands of residential listing and sales records.
+        url: https://github.com/alextran1357/idx-intern
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Analytics and visualization
+        keywords: "SQL, Python, Pandas, Excel, Power Query, Power Pivot, DAX, Tableau, Power BI, statistical analysis, forecasting"
 
-    Languages:
-      - name: German
-        summary: "Native speaker"
+      - name: Data engineering
+        keywords: "ETL, REST APIs, Apache Airflow, data modeling, Parquet, MySQL, MongoDB, SQLite, data quality, workflow automation"
 
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Software engineering
+        keywords: "Go, JavaScript, React, Vue.js, Remix, GraphQL, Docker, Git"

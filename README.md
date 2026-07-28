@@ -11,7 +11,7 @@ Docker Desktop must be running. From the repository root:
 docker compose up
 ```
 
-Open <http://localhost:8080/al-folio/>. Changes to content files are rebuilt
+Open <http://localhost:8080/>. Changes to content files are rebuilt
 automatically. Stop the preview with `Ctrl+C`.
 
 ## Deployment
@@ -25,9 +25,8 @@ site is published to the `gh-pages` branch.
 - `_pages/`: top-level pages and navigation
 - `_posts/`: blog posts
 - `_projects/`: portfolio projects
-- `_bibliography/papers.bib`: publications
 - `_data/cv.yml`: CV data
 - `_data/socials.yml`: contact and social links
-- `assets/`: images, documents, audio, and video used by the site
+- `assets/`: portfolio images and downloadable documents
 
 Detailed setup and customization guidance is available in [`docs/`](docs/README.md).

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">California real estate data pipeline project cover</title>
+  <desc id="desc">A four-stage data pipeline for monthly real estate records on a deep green background.</desc>
+  <rect width="1200" height="675" fill="#092421"/>
+  <circle cx="1060" cy="90" r="240" fill="#123d37"/>
+  <text x="78" y="105" fill="#6ee7b7" font-family="Arial, sans-serif" font-size="26" font-weight="700" letter-spacing="3">DATA QUALITY + FEATURE ENGINEERING</text>
+  <text x="78" y="180" fill="#ffffff" font-family="Arial, sans-serif" font-size="58" font-weight="700">California Real Estate</text>
+  <text x="78" y="242" fill="#ffffff" font-family="Arial, sans-serif" font-size="58" font-weight="700">Data Pipeline</text>
+  <text x="78" y="300" fill="#bad8d2" font-family="Arial, sans-serif" font-size="27">Monthly MLS records · FRED enrichment · Tableau</text>
+  <g font-family="Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle">
+    <rect x="80" y="430" width="220" height="105" rx="18" fill="#145f54"/><text x="190" y="491" fill="#ffffff">AGGREGATE</text>
+    <rect x="355" y="430" width="220" height="105" rx="18" fill="#16766a"/><text x="465" y="491" fill="#ffffff">VALIDATE</text>
+    <rect x="630" y="430" width="220" height="105" rx="18" fill="#198f7d"/><text x="740" y="491" fill="#ffffff">ENGINEER</text>
+    <rect x="905" y="430" width="220" height="105" rx="18" fill="#1ba88f"/><text x="1015" y="491" fill="#ffffff">ANALYZE</text>
+  </g>
+  <g stroke="#6ee7b7" stroke-width="8" fill="none"><path d="M305 483h40"/><path d="M580 483h40"/><path d="M855 483h40"/></g>
+</svg>

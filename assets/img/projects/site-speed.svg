@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Website performance benchmarking project cover</title>
+  <desc id="desc">A speed gauge and peer percentile bars on a dark charcoal background.</desc>
+  <rect width="1200" height="675" fill="#161b24"/>
+  <circle cx="1045" cy="105" r="235" fill="#292f3a"/>
+  <text x="78" y="105" fill="#fdba74" font-family="Arial, sans-serif" font-size="26" font-weight="700" letter-spacing="3">BENCHMARKING + DECISION SUPPORT</text>
+  <text x="78" y="180" fill="#ffffff" font-family="Arial, sans-serif" font-size="58" font-weight="700">Website Performance</text>
+  <text x="78" y="242" fill="#ffffff" font-family="Arial, sans-serif" font-size="58" font-weight="700">Benchmarking</text>
+  <text x="78" y="300" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="27">Lighthouse metrics · Peer percentiles · Streamlit</text>
+  <path d="M150 545a150 150 0 0 1 300 0" fill="none" stroke="#3f4754" stroke-width="38" stroke-linecap="round"/>
+  <path d="M150 545a150 150 0 0 1 235-122" fill="none" stroke="#fb923c" stroke-width="38" stroke-linecap="round"/>
+  <line x1="300" y1="545" x2="385" y2="425" stroke="#ffffff" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="300" cy="545" r="20" fill="#ffffff"/>
+  <g fill="#38bdf8"><rect x="575" y="475" width="420" height="34" rx="17"/><rect x="575" y="530" width="305" height="34" rx="17"/></g>
+  <rect x="575" y="420" width="520" height="34" rx="17" fill="#64748b"/>
+</svg>

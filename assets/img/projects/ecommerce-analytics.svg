@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">E-commerce revenue analytics project cover</title>
+  <desc id="desc">A rising revenue chart and product contribution points on a dark blue background.</desc>
+  <rect width="1200" height="675" fill="#0b1736"/>
+  <circle cx="1030" cy="110" r="230" fill="#172b57"/>
+  <text x="78" y="105" fill="#7dd3fc" font-family="Arial, sans-serif" font-size="26" font-weight="700" letter-spacing="3">ANALYTICS + FORECASTING</text>
+  <text x="78" y="180" fill="#ffffff" font-family="Arial, sans-serif" font-size="58" font-weight="700">E-commerce Revenue</text>
+  <text x="78" y="242" fill="#ffffff" font-family="Arial, sans-serif" font-size="58" font-weight="700">Analytics</text>
+  <text x="78" y="300" fill="#b8c6e5" font-family="Arial, sans-serif" font-size="27">1.9M order items · Power BI · Prophet</text>
+  <line x1="80" y1="565" x2="1120" y2="565" stroke="#41557f" stroke-width="3"/>
+  <polyline points="105,530 235,490 365,500 495,420 625,445 755,330 885,355 1015,205 1110,230" fill="none" stroke="#38bdf8" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#a78bfa"><circle cx="235" cy="490" r="10"/><circle cx="495" cy="420" r="10"/><circle cx="755" cy="330" r="10"/><circle cx="1015" cy="205" r="10"/></g>
+</svg>
