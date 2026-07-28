@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Steam game pricing intelligence project cover</title>
+  <desc id="desc">Discount event points and an analytical trend line on a dark violet background.</desc>
+  <rect width="1200" height="675" fill="#11102d"/>
+  <circle cx="1050" cy="130" r="250" fill="#211f55"/>
+  <text x="78" y="105" fill="#c4b5fd" font-family="Arial, sans-serif" font-size="26" font-weight="700" letter-spacing="3">DATA PIPELINE + DASHBOARD</text>
+  <text x="78" y="180" fill="#ffffff" font-family="Arial, sans-serif" font-size="58" font-weight="700">Steam Pricing</text>
+  <text x="78" y="242" fill="#ffffff" font-family="Arial, sans-serif" font-size="58" font-weight="700">Intelligence</text>
+  <text x="78" y="300" fill="#c7c4e8" font-family="Arial, sans-serif" font-size="27">8,500+ games · 460K+ price events</text>
+  <line x1="90" y1="565" x2="1110" y2="565" stroke="#4a4778" stroke-width="3"/>
+  <g fill="#22d3ee"><circle cx="150" cy="505" r="13"/><circle cx="240" cy="455" r="10"/><circle cx="330" cy="515" r="15"/><circle cx="420" cy="400" r="11"/><circle cx="525" cy="440" r="14"/><circle cx="630" cy="335" r="12"/><circle cx="745" cy="375" r="10"/><circle cx="850" cy="275" r="15"/><circle cx="965" cy="305" r="11"/><circle cx="1070" cy="205" r="14"/></g>
+  <polyline points="140,500 300,475 450,420 610,380 770,335 930,270 1080,225" fill="none" stroke="#a78bfa" stroke-width="10" stroke-linecap="round"/>
+</svg>
