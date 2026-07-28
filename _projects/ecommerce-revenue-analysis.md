@@ -5,7 +5,6 @@ description: Revenue modeling, product-mix analysis, Power BI reporting, and Pro
 img: assets/img/projects/ecommerce-analytics.png
 github: https://github.com/alextran1357/ecommerce-revenue-analysis
 importance: 1
-category: featured
 ---
 
 ## The problem

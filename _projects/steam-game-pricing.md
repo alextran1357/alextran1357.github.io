@@ -5,7 +5,6 @@ description: An API-driven pipeline and Streamlit dashboard for analyzing first-
 img: assets/img/projects/steam-pricing.png
 github: https://github.com/alextran1357/game-data-tracker
 importance: 2
-category: featured
 ---
 
 ## The problem

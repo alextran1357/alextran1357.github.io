@@ -5,7 +5,6 @@ description: A repeatable cleaning and feature-engineering workflow for monthly 
 img: assets/img/projects/mls-pipeline.png
 github: https://github.com/alextran1357/idx-intern
 importance: 3
-category: featured
 ---
 
 ## The problem

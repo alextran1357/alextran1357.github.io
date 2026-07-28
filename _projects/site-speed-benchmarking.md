@@ -5,7 +5,6 @@ description: A business-facing dashboard that compares Lighthouse results with p
 img: assets/img/projects/site-speed.png
 github: https://github.com/alextran1357/site_speed_recommendation
 importance: 4
-category: featured
 ---
 
 ## The problem
